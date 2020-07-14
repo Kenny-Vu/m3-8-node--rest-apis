@@ -17,3 +17,18 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+| endpoint           | method   | Description                                   |
+| ------------------ | -------- | --------------------------------------------- |
+| `/stock`           | `GET`    | It is look at the inventory                   |
+| `/stock/:item`     | `GET`    | It is look at an item in the inventory        |
+| `/stock`           | `POST`   | It is to add item to inventory                |
+| `/stock/:item`     | `PATCH`  | It is to modify item in inventory             |
+| `/stock/:item`     | `DELETE` | It is to remove item from the inventory       |
+| `/customers`       | `GET`    | It is to look at the regular customer list    |
+| `/customer/:name`  | `GET`    | It is look at details of a specific client    |
+| `/customers`       | `POST`   | It's to add a new customer to regular clients |
+| `/customers/:name` | `PATCH`  | It's to modify regular clients' info          |
+| `/customers/:name` | `DELETE` | It is to remove customer                      |
+| `/seating`         | `GET`    | It is look at the seating in the cafe         |
+| `/seating`         | `PATCH`  | Used to update seating arrangement?           |
